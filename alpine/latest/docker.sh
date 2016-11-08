@@ -4,7 +4,6 @@ apk update
 apk add docker
 rc-update add docker boot
 service docker start
-addgroup docker
 adduser vagrant docker
 
 apk add py-pip
