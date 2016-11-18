@@ -1,5 +1,6 @@
 #!/bin/sh
 apk update
+apk add --upgrade alpine-sdk
 
 apk add docker
 rc-update add docker boot
