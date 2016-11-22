@@ -9,3 +9,4 @@ adduser vagrant docker
 
 apk add py-pip
 pip install docker-compose
+pip install --upgrade pip
